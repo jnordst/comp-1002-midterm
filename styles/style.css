@@ -1,0 +1,97 @@
+@import url('./layout.css');
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(179, 37, 37);
+}
+
+nav li {
+    font-size: 12px;
+    padding: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#content {
+    display: flex;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 2em;
+}
+
+main article {
+    outline: auto;
+    padding: 1em;
+    width: 250px;
+    font-size: 12px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+main article button {
+    width: 80%;
+    padding: 1em;
+    border: none;
+    background-color: rgb(41, 49, 49);
+    color: white;
+}
+
+main article p {
+    padding: 1em;
+}
+
+aside {
+    outline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em;
+}
+
+aside article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+aside article h2 {
+    font-size: 2em;
+    background-color: rgb(41, 49, 49);
+    color: #ffffff;
+    padding: 1em;
+    width: 90%;
+}
+
+aside article p {
+    font-size: 12px;
+    padding: 1.4em;
+}
+
+
+aside article footer {
+    background-color: rgb(41, 49, 49);
+    color: white;
+    width: 90%;
+    padding: 1em;
+}
+
+aside article a {
+    text-decoration: none;
+    color: white;
+}
+
+
